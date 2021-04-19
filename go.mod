@@ -13,6 +13,7 @@ require (
 	github.com/go-chi/chi v3.3.3+incompatible
 	github.com/go-chi/cors v1.0.0
 	github.com/go-errors/errors v1.0.1
+	github.com/go-redis/redis/v8 v8.8.0
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/hashicorp/go-retryablehttp v0.6.2
@@ -23,8 +24,6 @@ require (
 	github.com/mdp/qrterminal v1.0.1
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mitchellh/mapstructure v1.1.2
-	github.com/onsi/ginkgo v1.12.0 // indirect
-	github.com/onsi/gomega v1.9.0 // indirect
 	github.com/privacybydesign/gabi v0.0.0-20210311130659-b4e094b964d8
 	github.com/sietseringers/cobra v1.0.1-0.20200909200314-c50c3838234b
 	github.com/sietseringers/go-sse v0.0.0-20200801161811-e2cf2c63ca50
@@ -34,9 +33,8 @@ require (
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/spf13/afero v1.2.0 // indirect
 	github.com/spf13/cast v1.3.0
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/timshannon/bolthold v0.0.0-20190812165541-a85bcc049a2e // indirect
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
 	go.etcd.io/bbolt v1.3.2
-	golang.org/x/crypto v0.0.0-20200204104054-c9f3fb736b72 // indirect
 )
